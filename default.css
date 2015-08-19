@@ -529,6 +529,9 @@
 
 	#footer
 	{
+		overflow: hidden;
+		padding: 0em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 
 /*********************************************************************************/
@@ -538,9 +541,8 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 2em 0em;
-		border-top: 1px solid rgba(0,0,0,0.08);
-		opacity: 0;
+		padding: 1em 0em;
+		opacity: 0.25;
 	}
 
 	#copyright:hover
@@ -569,7 +571,6 @@
 	{
 		display: block;
 		color: #000;
-		background: red;
 	}
 
 /*********************************************************************************/
